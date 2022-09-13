@@ -2119,7 +2119,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"src\/script.js"
+         "value":"src\/main.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.8.4",
@@ -2190,7 +2190,7 @@
         {
          "columns":19,
          "firstgid":18215,
-         "image":"tilesets\/TRAINING_CENTER.png",
+         "image":"tilesets\/TRAINING-CENTER.png",
          "imageheight":97,
          "imagewidth":614,
          "margin":0,
