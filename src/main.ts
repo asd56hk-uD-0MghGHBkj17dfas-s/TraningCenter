@@ -11,6 +11,18 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
 
+    WA.room.onEnterLayer("floor").subscribe(() => {
+        WA.room.hideLayer("roof");
+        WA.room.hideLayer("wall-stripe-front");
+        WA.room.hideLayer("sign");
+      });
+      
+    WA.room.onLeaveLayer("floor").subscribe(() => {
+        WA.room.showLayer("roof");
+        WA.room.showLayer("wall-stripe-front");
+        WA.room.showLayer("sign");
+      });
+
     WA.room.onEnterLayer('clockZone').subscribe(() => {
         const today = new Date();
         const time = today.getHours() + ":" + today.getMinutes();
