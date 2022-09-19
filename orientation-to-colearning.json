@@ -2184,11 +2184,11 @@
         {
          "columns":106,
          "firstgid":11113,
-         "image":"tilesets\/single-classroom.png",
+         "image":"tilesets\/Single-Classroom.png",
          "imageheight":2152,
          "imagewidth":3392,
          "margin":0,
-         "name":"single-classroom",
+         "name":"Single-Classroom",
          "spacing":0,
          "tilecount":7102,
          "tileheight":32,
