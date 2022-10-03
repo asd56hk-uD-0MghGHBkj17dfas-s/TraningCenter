@@ -2298,7 +2298,7 @@
          "name":"roof_orientation",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -2383,7 +2383,7 @@
          "name":"sign_orientation",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
