@@ -57,13 +57,50 @@ WA.room.onLeaveLayer("office_floor_orientation").subscribe(() => {
     WA.room.showLayer("facade-furniture-bg_orientation");
   });
 
-    WA.room.onEnterLayer('clockZone').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
-        currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
-    })
+    
 
-    WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
+
+    WA.room.onEnterLayer('massage-orientation-to-colearning').subscribe(() => {
+        
+      currentPopup = WA.ui.openPopup("ColerningPopup","Orientation to Colearning",[]);
+  })
+
+  WA.room.onLeaveLayer('massage-orientation-to-colearning').subscribe(closePopUp)
+
+  WA.room.onEnterLayer('massage-library').subscribe(() => {
+        
+    currentPopup = WA.ui.openPopup("LiberaryPop","Liberary",[]);
+})
+
+WA.room.onLeaveLayer('massage-library').subscribe(closePopUp)
+
+WA.room.onEnterLayer('massage-ocean').subscribe(() => {
+        
+  currentPopup = WA.ui.openPopup("OceanPop","Ocean",[]);
+})
+
+WA.room.onLeaveLayer('massage-ocean').subscribe(closePopUp)
+
+WA.room.onEnterLayer('massage-training1').subscribe(() => {
+        
+  currentPopup = WA.ui.openPopup("TrainingCenterPop1","Training Center",[]);
+})
+
+WA.room.onLeaveLayer('massage-training1').subscribe(closePopUp)
+
+WA.room.onEnterLayer('massage-training2').subscribe(() => {
+        
+  currentPopup = WA.ui.openPopup("TrainingCenterPop2","Training Center",[]);
+})
+
+WA.room.onLeaveLayer('massage-training2').subscribe(closePopUp)
+
+WA.room.onEnterLayer('massage-training3').subscribe(() => {
+        
+  currentPopup = WA.ui.openPopup("TrainingCenterPop3","Training Center",[]);
+})
+
+WA.room.onLeaveLayer('massage-training3').subscribe(closePopUp)
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
