@@ -69,7 +69,7 @@ WA.room.onLeaveLayer("office_floor_orientation").subscribe(() => {
 
   WA.room.onEnterLayer('massage-library').subscribe(() => {
         
-    currentPopup = WA.ui.openPopup("LiberaryPop","Liberary",[]);
+    currentPopup = WA.ui.openPopup("LibraryPop","Library",[]);
 })
 
 WA.room.onLeaveLayer('massage-library').subscribe(closePopUp)
