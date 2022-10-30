@@ -57,6 +57,19 @@ WA.room.onLeaveLayer("office_floor_orientation").subscribe(() => {
     WA.room.showLayer("facade-furniture-bg_orientation");
   });
 
+
+  WA.room.onEnterLayer("floor").subscribe(() => {
+    WA.room.hideLayer("roof");
+    WA.room.hideLayer("walls-bg-front");
+    WA.room.hideLayer("sign");
+  });
+  
+WA.room.onLeaveLayer("floor").subscribe(() => {
+    WA.room.showLayer("roof");
+    WA.room.showLayer("walls-bg-front");
+    WA.room.showLayer("sign");
+  });
+
     
 
 
