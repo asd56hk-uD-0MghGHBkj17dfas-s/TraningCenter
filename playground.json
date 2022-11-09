@@ -2980,7 +2980,7 @@
                          "value":"#entry-1"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2405767282701,
                  "x":1282.56232917902,
@@ -2997,7 +2997,7 @@
                          "value":"#entry-2"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":2914.44413542511,
@@ -3014,7 +3014,7 @@
                          "value":"#entry-3"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":3011.26050860213,
@@ -3031,7 +3031,7 @@
                          "value":"#entry-4"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":2873.61837069486,
@@ -3048,7 +3048,7 @@
                          "value":"#entry-5"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":1785.81255549688,
@@ -3065,7 +3065,7 @@
                          "value":"#entry-6"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":185.881716964672,
@@ -3082,7 +3082,7 @@
                          "value":"#entry-7"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":1050.34086504854,
@@ -3099,7 +3099,7 @@
                          "value":"#entry-8"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":121.770914877689,
@@ -3116,7 +3116,7 @@
                          "value":"#entry-9"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":130.803602533359,
@@ -3133,7 +3133,7 @@
                          "value":"#entry-8"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":1242.32094444418,
@@ -3150,7 +3150,7 @@
                          "value":"#entry-7"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":89.646565079365,
@@ -3167,7 +3167,7 @@
                          "value":"#entry-6"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":162.657586256266,
@@ -3184,7 +3184,7 @@
                          "value":"#entry-5"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":1091.72302714787,
@@ -3201,7 +3201,7 @@
                          "value":"#entry-4"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":227.851614361718,
@@ -3218,7 +3218,7 @@
                          "value":"#entry-3"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":1827.6561235121,
@@ -3235,7 +3235,7 @@
                          "value":"#entry-2"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":2915.11340969285,
@@ -3252,7 +3252,7 @@
                          "value":"#entry-1"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":2969.68913708651,
@@ -3269,7 +3269,7 @@
                          "value":"#entry-9"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":35.2406,
                  "x":2873.72630315558,
@@ -3286,7 +3286,7 @@
                          "value":"#entry-plank"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":52.9105333691723,
                  "x":2832.98574460241,
@@ -3303,7 +3303,7 @@
                          "value":"#entry-hammock-1"
                         }],
                  "rotation":357.908040192352,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":31.9197446420426,
                  "x":2111.64699662565,
@@ -3320,7 +3320,7 @@
                          "value":"#entry-hammock-2"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":30.8470074118504,
                  "x":1985.07263689377,
@@ -3337,7 +3337,7 @@
                          "value":"#entry-hammock-3"
                         }],
                  "rotation":1.28757545751086,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":31.2754380703484,
                  "x":1920.76863862241,
@@ -3354,7 +3354,7 @@
                          "value":"#entry-hammock-2"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":13.2813504134356,
                  "x":1994.06968072223,
@@ -3371,7 +3371,7 @@
                          "value":"#entry-hammock-4"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":13.1665569453587,
                  "x":2028.25343739572,
@@ -3388,7 +3388,7 @@
                          "value":"#entry-fire-station"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":25.5085355484334,
                  "x":2403.03486166525,
