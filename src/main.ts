@@ -70,12 +70,13 @@ WA.room.onLeaveLayer("floor").subscribe(() => {
     WA.room.showLayer("sign");
   });
 
-  WA.room.onEnterLayer("x_ray_area").subscribe(() => {
+WA.room.onEnterLayer("x_ray_area").subscribe(() => {
     WA.room.showLayer("x-ray");
+    console.log('THIS IS X_RAY');
   });
   
 WA.room.onLeaveLayer("x_ray_area").subscribe(() => {
-    WA.room.showLayer("x-ray");
+    WA.room.hideLayer("x-ray");
   });
 
 
