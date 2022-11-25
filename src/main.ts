@@ -70,14 +70,14 @@ WA.room.onLeaveLayer("floor").subscribe(() => {
     WA.room.showLayer("sign");
   });
 
-WA.room.onEnterLayer("x_ray_area").subscribe(() => {
-    WA.room.showLayer("x-ray");
-    console.log('THIS IS X_RAY');
-  });
+// WA.room.onEnterLayer("x_ray_area").subscribe(() => {
+//     WA.room.showLayer("x-ray");
+//     console.log('THIS IS X_RAY');
+//   });
   
-WA.room.onLeaveLayer("x_ray_area").subscribe(() => {
-    WA.room.hideLayer("x-ray");
-  });
+// WA.room.onLeaveLayer("x_ray_area").subscribe(() => {
+//     WA.room.hideLayer("x-ray");
+//   });
 
 
     WA.room.onEnterLayer('massage-orientation-to-colearning').subscribe(() => {
