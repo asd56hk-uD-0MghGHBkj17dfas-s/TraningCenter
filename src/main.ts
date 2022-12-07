@@ -23,14 +23,14 @@ WA.onInit().then(() => {
         WA.room.showLayer("sign");
       });
 // Custom TS Julia main map
-WA.room.onEnterLayer("floor_liberary").subscribe(() => {
-    WA.room.hideLayer("roof_liberary");
-    WA.room.hideLayer("walls-bg-front_liberary");
+WA.room.onEnterLayer("floor").subscribe(() => {
+    WA.room.hideLayer("roof");
+    WA.room.hideLayer("walls-bg-front");
   });
   
-WA.room.onLeaveLayer("floor_liberary").subscribe(() => {
-    WA.room.showLayer("roof_liberary");
-    WA.room.showLayer("walls-bg-front_liberary");
+WA.room.onLeaveLayer("floor").subscribe(() => {
+    WA.room.showLayer("roof");
+    WA.room.showLayer("walls-bg-front");
   });
   // Custom TS Julia Orientation
 
