@@ -545,7 +545,6 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"area",
                  "height":138,
                  "id":1,
                  "name":"website-1",
@@ -561,13 +560,13 @@
                          "value":"onicon"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":287,
                  "x":300.78,
                  "y":951
                 }, 
                 {
-                 "class":"area",
                  "height":138,
                  "id":2,
                  "name":"website-2",
@@ -583,13 +582,13 @@
                          "value":"onicon"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":148,
                  "x":301.61,
                  "y":760
                 }, 
                 {
-                 "class":"area",
                  "height":138,
                  "id":3,
                  "name":"website-3",
@@ -605,13 +604,13 @@
                          "value":"onicon"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":148,
                  "x":927,
                  "y":755
                 }, 
                 {
-                 "class":"area",
                  "height":138,
                  "id":4,
                  "name":"website-4",
@@ -627,13 +626,13 @@
                          "value":"onicon"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":287,
                  "x":789,
                  "y":949
                 }, 
                 {
-                 "class":"area",
                  "height":30.8085362188158,
                  "id":5,
                  "name":"exit-to-map",
@@ -644,6 +643,7 @@
                          "value":"map.json#entry-addon-1"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":94.6798917944094,
                  "x":640.967838893898,
@@ -970,7 +970,7 @@
          "value":"Current map is the sole property of 100 Roads Inc. All rights are reserved by 100 Roads inc. All contents of the map may not be reproduced, distributed (for sale or otherwise), or create derivative works of the copyrighted work without the express written permission of 100 Roads Inc."
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.8.4",
  "tileheight":32,
  "tilesets":[
         {
@@ -12449,6 +12449,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.8",
  "width":43
 }
