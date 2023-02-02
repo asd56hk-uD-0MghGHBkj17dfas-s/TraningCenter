@@ -180,7 +180,29 @@
          "draworder":"topdown",
          "id":4,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":481.643132220796,
+                 "id":1,
+                 "name":"zoom-ship1",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":0
+                        }],
+                 "rotation":0,
+                 "type":"zone",
+                 "visible":true,
+                 "width":895.712451861361,
+                 "x":1.43774069319641,
+                 "y":0
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -214,7 +236,7 @@
          "y":0
         }],
  "nextlayerid":9,
- "nextobjectid":1,
+ "nextobjectid":2,
  "orientation":"orthogonal",
  "properties":[
         {

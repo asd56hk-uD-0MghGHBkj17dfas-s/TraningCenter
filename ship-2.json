@@ -1,4 +1,3 @@
-
 { "compressionlevel":-1,
  "height":15,
  "infinite":false,
@@ -159,7 +158,29 @@
          "draworder":"topdown",
          "id":3,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":477.329910141207,
+                 "id":1,
+                 "name":"zoom-ship1",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":0
+                        }],
+                 "rotation":0,
+                 "type":"zone",
+                 "visible":true,
+                 "width":894.274711168164,
+                 "x":2.87548138639281,
+                 "y":1.43774069319641
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -193,7 +214,7 @@
          "y":0
         }],
  "nextlayerid":8,
- "nextobjectid":1,
+ "nextobjectid":2,
  "orientation":"orthogonal",
  "properties":[
         {
